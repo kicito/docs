@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - v1.10.x
+      - v1.9.x
 jobs:
   docker_build_and_push:
     runs-on: ubuntu-latest

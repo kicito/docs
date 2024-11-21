@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service SMTP
 
 > from smtp import SMTP
@@ -12,7 +16,7 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| sendMail | <a href="#SendMailRequest">SendMailRequest</a> | <a href='#void'>void</a> | <details><summary>SMTPFault</summary>undefined)</details> |  |
+| sendMail | <a href="#SendMailRequest">SendMailRequest</a> | <a href='#void'>void</a> | <details><summary>SMTPFault</summary>undefined</details> |  |
 
 
 ### Types

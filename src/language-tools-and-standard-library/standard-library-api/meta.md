@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Meta
 
 > from meta import Meta

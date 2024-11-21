@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service JolieDocLib
 
 > from joliedoc-lib import JolieDocLib

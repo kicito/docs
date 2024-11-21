@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service StringUtils
 
 > from string-utils import StringUtils

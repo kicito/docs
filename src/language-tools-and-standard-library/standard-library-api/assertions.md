@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Assertions
 
 > from assertions import Assertions
@@ -12,7 +16,7 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| equals | <a href="#AssertionRequest">AssertionRequest</a> | <a href='#void'>void</a> | <details><summary>AssertionError</summary>string)</details> |  |
+| equals | <a href="#AssertionRequest">AssertionRequest</a> | <a href='#void'>void</a> | <details><summary>AssertionError</summary>string</details> |  |
 
 
 ### Types

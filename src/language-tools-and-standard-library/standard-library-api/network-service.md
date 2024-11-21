@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Network
 
 > from network-service import Network
@@ -12,7 +16,7 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| getIPAddresses | <a href="#GetIPAddressesRequest">GetIPAddressesRequest</a> | <a href='#GetIPAddressesResponse'>GetIPAddressesResponse</a> | <details><summary>InterfaceNotFound</summary>undefined)</details> |  |
+| getIPAddresses | <a href="#GetIPAddressesRequest">GetIPAddressesRequest</a> | <a href='#GetIPAddressesResponse'>GetIPAddressesResponse</a> | <details><summary>InterfaceNotFound</summary>undefined</details> |  |
 | getNetworkInterfaceNames | <a href="#GetNetworkInterfaceNamesRequest">GetNetworkInterfaceNamesRequest</a> | <a href='#GetNetworkInterfaceNamesResponse'>GetNetworkInterfaceNamesResponse</a> | - |  |
 
 

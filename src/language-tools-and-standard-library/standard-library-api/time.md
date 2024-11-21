@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Time
 
 > from time import Time
@@ -18,13 +22,13 @@
 | getCurrentTimeMillis | <a href="#void">void</a> | <a href='#long'>long</a> | - | <br>		 Warning: this is temporary and subject to future change as soon as long is supported by Jolie.<br>		 |
 | getDateDiff | <a href="#DiffDateRequestType">DiffDateRequestType</a> | <a href='#int'>int</a> | - |  |
 | getDateTime | <a href="#GetDateTimeRequest">GetDateTimeRequest</a> | <a href='#GetDateTimeResponse'>GetDateTimeResponse</a> | - | <br>		 It returns a date time in a string format starting from a timestamp<br>		 |
-| getDateTimeValues | <a href="#GetTimestampFromStringRequest">GetTimestampFromStringRequest</a> | <a href='#DateTimeType'>DateTimeType</a> | <details><summary>InvalidDate</summary>undefined)</details> |  |
-| getDateValues | <a href="#DateValuesRequestType">DateValuesRequestType</a> | <a href='#DateValuesType'>DateValuesType</a> | <details><summary>InvalidDate</summary>undefined)</details> | <br>		 Converts an input string into a date expressed by means of<br>		 three elements: day, month and year. The request may specify the<br>		 date parsing format. See #DateValuesRequestType for details.<br>		 |
+| getDateTimeValues | <a href="#GetTimestampFromStringRequest">GetTimestampFromStringRequest</a> | <a href='#DateTimeType'>DateTimeType</a> | <details><summary>InvalidDate</summary>undefined</details> |  |
+| getDateValues | <a href="#DateValuesRequestType">DateValuesRequestType</a> | <a href='#DateValuesType'>DateValuesType</a> | <details><summary>InvalidDate</summary>undefined</details> | <br>		 Converts an input string into a date expressed by means of<br>		 three elements: day, month and year. The request may specify the<br>		 date parsing format. See #DateValuesRequestType for details.<br>		 |
 | getTimeDiff | <a href="#GetTimeDiffRequest">GetTimeDiffRequest</a> | <a href='#int'>int</a> | - |  |
 | getTimeFromMilliSeconds | <a href="#int">int</a> | <a href='#TimeValuesType'>TimeValuesType</a> | - |  |
 | getTimeValues | <a href="#string">string</a> | <a href='#TimeValuesType'>TimeValuesType</a> | - |  |
-| getTimestampFromString | <a href="#GetTimestampFromStringRequest">GetTimestampFromStringRequest</a> | <a href='#long'>long</a> | <details><summary>InvalidTimestamp</summary>undefined)</details> |  |
-| scheduleTimeout | <a href="#ScheduleTimeOutRequest">ScheduleTimeOutRequest</a> | <a href='#long'>long</a> | <details><summary>InvalidTimeUnit</summary>undefined)</details> | <br>		 Schedules a timeout, which can be cancelled using #cancelTimeout from the returned string. Default .timeunit value is MILLISECONDS, .operation default is "timeout".<br>		 |
+| getTimestampFromString | <a href="#GetTimestampFromStringRequest">GetTimestampFromStringRequest</a> | <a href='#long'>long</a> | <details><summary>InvalidTimestamp</summary>undefined</details> |  |
+| scheduleTimeout | <a href="#ScheduleTimeOutRequest">ScheduleTimeOutRequest</a> | <a href='#long'>long</a> | <details><summary>InvalidTimeUnit</summary>undefined</details> | <br>		 Schedules a timeout, which can be cancelled using #cancelTimeout from the returned string. Default .timeunit value is MILLISECONDS, .operation default is "timeout".<br>		 |
 | setNextTimeout | <a href="#SetNextTimeOutRequest">SetNextTimeOutRequest</a> | - | - | <br>		  it sets a timeout whose duration is in milliseconds and it is represented by the root value of the message<br>		  When the alarm is triggered a message whose content is defined in .message is sent to operation defined in .operation<br>		  ( default: timeout )<br>		 |
 | setNextTimeoutByDateTime | <a href="#undefined">undefined</a> | - | - |  |
 | setNextTimeoutByTime | <a href="#undefined">undefined</a> | - | - |  |

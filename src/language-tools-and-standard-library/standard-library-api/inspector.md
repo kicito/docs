@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Inspector
 
 > from inspector import Inspector
@@ -12,9 +16,9 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| inspectFile | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#FileInspectionResponse'>FileInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details> |  |
-| inspectPorts | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#PortInspectionResponse'>PortInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details> |  |
-| inspectTypes | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#TypesInspectionResponse'>TypesInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a>)</details> |  |
+| inspectFile | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#FileInspectionResponse'>FileInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details> |  |
+| inspectPorts | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#PortInspectionResponse'>PortInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details> |  |
+| inspectTypes | <a href="#InspectionRequest">InspectionRequest</a> | <a href='#TypesInspectionResponse'>TypesInspectionResponse</a> | <details><summary>ParserException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>FileNotFoundException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>IOException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details><details><summary>SemanticException</summary><a href='#0#WeakJavaExceptionType'>0#WeakJavaExceptionType</a></details> |  |
 
 
 ### Types

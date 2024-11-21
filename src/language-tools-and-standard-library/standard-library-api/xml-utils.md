@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service XmlUtils
 
 > from xml-utils import XmlUtils
@@ -12,9 +16,9 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| transform | <a href="#XMLTransformationRequest">XMLTransformationRequest</a> | <a href='#string'>string</a> | <details><summary>TransformerException</summary><a href='#0#JavaExceptionType'>0#JavaExceptionType</a>)</details> |  |
-| valueToXml | <a href="#ValueToXmlRequest">ValueToXmlRequest</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#1#IOExceptionType'>1#IOExceptionType</a>)</details><details><summary>IllegalArgumentException</summary>string)</details> | <br>		  Transforms the value contained within the root node into an xml string.<br>		 <br>		  The base value of ValueToXmlRequest.root will be discarded, the rest gets converted recursively<br>		  |
-| xmlToValue | <a href="#XMLToValueRequest">XMLToValueRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>IOException</summary><a href='#1#IOExceptionType'>1#IOExceptionType</a>)</details> | <br>		  Transforms the base value in XML format (data types string, raw) into a Jolie value<br>		 <br>		  The XML root node will be discarded, the rest gets converted recursively<br>		  |
+| transform | <a href="#XMLTransformationRequest">XMLTransformationRequest</a> | <a href='#string'>string</a> | <details><summary>TransformerException</summary><a href='#0#JavaExceptionType'>0#JavaExceptionType</a></details> |  |
+| valueToXml | <a href="#ValueToXmlRequest">ValueToXmlRequest</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#1#IOExceptionType'>1#IOExceptionType</a></details><details><summary>IllegalArgumentException</summary>string</details> | <br>		  Transforms the value contained within the root node into an xml string.<br>		 <br>		  The base value of ValueToXmlRequest.root will be discarded, the rest gets converted recursively<br>		  |
+| xmlToValue | <a href="#XMLToValueRequest">XMLToValueRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>IOException</summary><a href='#1#IOExceptionType'>1#IOExceptionType</a></details> | <br>		  Transforms the base value in XML format (data types string, raw) into a Jolie value<br>		 <br>		  The XML root node will be discarded, the rest gets converted recursively<br>		  |
 
 
 ### Types

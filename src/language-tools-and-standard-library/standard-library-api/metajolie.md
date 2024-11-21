@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service MetaJolieJavaService
 
 > from metajolie import MetaJolieJavaService
@@ -12,8 +16,8 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| checkOperationTypes | <a href="#CheckOperationTypesRequest">CheckOperationTypesRequest</a> | <a href='#bool'>bool</a> | <details><summary>TypeMissing</summary>string)</details> |  |
-| typeLessThan | <a href="#TypeLessThanRequest">TypeLessThanRequest</a> | <a href='#bool'>bool</a> | <details><summary>TypeMissing</summary>string)</details> |  |
+| checkOperationTypes | <a href="#CheckOperationTypesRequest">CheckOperationTypesRequest</a> | <a href='#bool'>bool</a> | <details><summary>TypeMissing</summary>string</details> |  |
+| typeLessThan | <a href="#TypeLessThanRequest">TypeLessThanRequest</a> | <a href='#bool'>bool</a> | <details><summary>TypeMissing</summary>string</details> |  |
 
 
 ### Types

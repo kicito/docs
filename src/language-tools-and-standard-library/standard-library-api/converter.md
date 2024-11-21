@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Converter
 
 > from converter import Converter
@@ -12,10 +16,10 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| base64ToRaw | <a href="#string">string</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
+| base64ToRaw | <a href="#string">string</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
 | rawToBase64 | <a href="#raw">raw</a> | <a href='#string'>string</a> | - |  |
-| rawToString | <a href="#RawToStringRequest">RawToStringRequest</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  string <-> raw (byte arrays) conversion methods  |
-| stringToRaw | <a href="#StringToRawRequest">StringToRawRequest</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
+| rawToString | <a href="#RawToStringRequest">RawToStringRequest</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  string <-> raw (byte arrays) conversion methods  |
+| stringToRaw | <a href="#StringToRawRequest">StringToRawRequest</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
 
 
 ### Types

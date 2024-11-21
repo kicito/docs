@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Reflection
 
 > from reflection import Reflection
@@ -12,8 +16,8 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| invoke | <a href="#InvokeRequest">InvokeRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>OperationNotFound</summary>string)</details><details><summary>InvocationFault</summary><a href='#InvocationFaultType'>InvocationFaultType</a>)</details> | <br>	Invokes the specified operation at outputPort.<br>	If the operation is a OneWay, the invocation returns no value.<br>	 |
-| invokeRRUnsafe | <a href="#InvokeRequest">InvokeRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>InvocationFault</summary><a href='#InvocationFaultType'>InvocationFaultType</a>)</details> |  |
+| invoke | <a href="#InvokeRequest">InvokeRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>OperationNotFound</summary>string</details><details><summary>InvocationFault</summary><a href='#InvocationFaultType'>InvocationFaultType</a></details> | <br>	Invokes the specified operation at outputPort.<br>	If the operation is a OneWay, the invocation returns no value.<br>	 |
+| invokeRRUnsafe | <a href="#InvokeRequest">InvokeRequest</a> | <a href='#undefined'>undefined</a> | <details><summary>InvocationFault</summary><a href='#InvocationFaultType'>InvocationFaultType</a></details> |  |
 
 
 ### Types

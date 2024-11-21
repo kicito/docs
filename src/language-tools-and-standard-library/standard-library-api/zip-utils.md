@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service ZipUtils
 
 > from zip-utils import ZipUtils
@@ -13,10 +17,10 @@
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
 | IOException | <a href="#undefined">undefined</a> | <a href='#undefined'>undefined</a> | - |  |
-| listEntries | <a href="#ListEntriesRequest">ListEntriesRequest</a> | <a href='#ListEntriesResponse'>ListEntriesResponse</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
-| readEntry | <a href="#ReadEntryRequest">ReadEntryRequest</a> | <a href='#any'>any</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
-| unzip | <a href="#UnzipRequest">UnzipRequest</a> | <a href='#UnzipResponse'>UnzipResponse</a> | <details><summary>FileNotFound</summary>undefined)</details> |  |
-| zip | <a href="#ZipRequest">ZipRequest</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
+| listEntries | <a href="#ListEntriesRequest">ListEntriesRequest</a> | <a href='#ListEntriesResponse'>ListEntriesResponse</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
+| readEntry | <a href="#ReadEntryRequest">ReadEntryRequest</a> | <a href='#any'>any</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
+| unzip | <a href="#UnzipRequest">UnzipRequest</a> | <a href='#UnzipResponse'>UnzipResponse</a> | <details><summary>FileNotFound</summary>undefined</details> |  |
+| zip | <a href="#ZipRequest">ZipRequest</a> | <a href='#raw'>raw</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
 
 
 ### Types

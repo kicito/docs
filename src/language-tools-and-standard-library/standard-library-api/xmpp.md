@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service XMPP
 
 > from xmpp import XMPP
@@ -12,8 +16,8 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| connect | <a href="#ConnectionRequest">ConnectionRequest</a> | <a href='#void'>void</a> | <details><summary>XMPPException</summary>undefined)</details> |  |
-| sendMessage | <a href="#SendMessageRequest">SendMessageRequest</a> | <a href='#void'>void</a> | <details><summary>XMPPException</summary>undefined)</details> |  |
+| connect | <a href="#ConnectionRequest">ConnectionRequest</a> | <a href='#void'>void</a> | <details><summary>XMPPException</summary>undefined</details> |  |
+| sendMessage | <a href="#SendMessageRequest">SendMessageRequest</a> | <a href='#void'>void</a> | <details><summary>XMPPException</summary>undefined</details> |  |
 
 
 ### Types

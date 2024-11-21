@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Runtime
 
 > from runtime import Runtime
@@ -16,20 +20,20 @@
 | dumpState | <a href="#void">void</a> | <a href='#string'>string</a> | - |  Returns a pretty-printed string representation of<br>	  the local state of the invoking Jolie process and<br>	  the global state of this service.<br>	  |
 | getIncludePaths | <a href="#void">void</a> | <a href='#GetIncludePathResponse'>GetIncludePathResponse</a> | - |  Get the include paths used by this interpreter |
 | getLocalLocation | <a href="#void">void</a> | <a href='#any'>any</a> | - |  Get the local in-memory location of this service. |
-| getOutputPort | <a href="#GetOutputPortRequest">GetOutputPortRequest</a> | <a href='#GetOutputPortResponse'>GetOutputPortResponse</a> | <details><summary>OutputPortDoesNotExist</summary>undefined)</details> |  Returns the definition of output port definition.<br>	  @throws OutputPortDoesNotExist if the requested output port does not exist.<br>	  |
+| getOutputPort | <a href="#GetOutputPortRequest">GetOutputPortRequest</a> | <a href='#GetOutputPortResponse'>GetOutputPortResponse</a> | <details><summary>OutputPortDoesNotExist</summary>undefined</details> |  Returns the definition of output port definition.<br>	  @throws OutputPortDoesNotExist if the requested output port does not exist.<br>	  |
 | getOutputPorts | <a href="#void">void</a> | <a href='#GetOutputPortsResponse'>GetOutputPortsResponse</a> | - |  Returns all the output ports used by this service. |
 | getProcessId | <a href="#void">void</a> | <a href='#string'>string</a> | - |  Returns the internal identifier of the executing Jolie process. |
 | getRedirection | <a href="#GetRedirectionRequest">GetRedirectionRequest</a> | <a href='#MaybeString'>MaybeString</a> | - |  Get the output port name that a redirection points to. |
 | getVersion | <a href="#void">void</a> | <a href='#string'>string</a> | - |  Returns the version of the Jolie interpreter running this service. |
 | getenv | <a href="#string">string</a> | <a href='#MaybeString'>MaybeString</a> | - |  Returns the value of an environment variable. |
 | halt | <a href="#HaltRequest">HaltRequest</a> | <a href='#void'>void</a> | - |  Halts non-gracefully the execution of this service. |
-| loadEmbeddedService | <a href="#LoadEmbeddedServiceRequest">LoadEmbeddedServiceRequest</a> | <a href='#any'>any</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a>)</details> |  Load an embedded service. |
-| loadLibrary | <a href="#string">string</a> | <a href='#void'>void</a> | <details><summary>IOException</summary><a href='#4#IOExceptionType'>4#IOExceptionType</a>)</details> |  Dynamically loads an external (jar) library. |
+| loadEmbeddedService | <a href="#LoadEmbeddedServiceRequest">LoadEmbeddedServiceRequest</a> | <a href='#any'>any</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a></details> |  Load an embedded service. |
+| loadLibrary | <a href="#string">string</a> | <a href='#void'>void</a> | <details><summary>IOException</summary><a href='#4#IOExceptionType'>4#IOExceptionType</a></details> |  Dynamically loads an external (jar) library. |
 | removeOutputPort | <a href="#string">string</a> | <a href='#void'>void</a> | - |  Removes the output port with the requested name. |
-| removeRedirection | <a href="#GetRedirectionRequest">GetRedirectionRequest</a> | <a href='#void'>void</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a>)</details> |  Remove a redirection at an input port |
+| removeRedirection | <a href="#GetRedirectionRequest">GetRedirectionRequest</a> | <a href='#void'>void</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a></details> |  Remove a redirection at an input port |
 | setMonitor | <a href="#SetMonitorRequest">SetMonitorRequest</a> | <a href='#void'>void</a> | - |  Set the monitor for this service. |
 | setOutputPort | <a href="#SetOutputPortRequest">SetOutputPortRequest</a> | <a href='#void'>void</a> | - |  Set an output port.<br>	  If an output port with this name does not exist already,<br>	  this operation creates it.<br>	  Otherwise, the output port is replaced with this one.<br>	  |
-| setRedirection | <a href="#SetRedirectionRequest">SetRedirectionRequest</a> | <a href='#void'>void</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a>)</details> |  Set a redirection at an input port.<br>	  If the redirection with this name does not exist already,<br>	  this operation creates it.<br>	  Otherwise, the redirection is replaced with this one.<br>	  |
+| setRedirection | <a href="#SetRedirectionRequest">SetRedirectionRequest</a> | <a href='#void'>void</a> | <details><summary>RuntimeException</summary><a href='#RuntimeExceptionType'>RuntimeExceptionType</a></details> |  Set a redirection at an input port.<br>	  If the redirection with this name does not exist already,<br>	  this operation creates it.<br>	  Otherwise, the redirection is replaced with this one.<br>	  |
 | stats | <a href="#void">void</a> | <a href='#Stats'>Stats</a> | - |  Returns information on the runtime state of the VM. |
 
 

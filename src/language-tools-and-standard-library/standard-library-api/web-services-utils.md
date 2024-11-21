@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service WebServicesUtils
 
 > from web-services-utils import WebServicesUtils
@@ -12,7 +16,7 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| wsdlToJolie | <a href="#string">string</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a>)</details> |  |
+| wsdlToJolie | <a href="#string">string</a> | <a href='#string'>string</a> | <details><summary>IOException</summary><a href='#0#IOExceptionType'>0#IOExceptionType</a></details> |  |
 
 
 ### Types

@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service Scheduler
 
 > from scheduler import Scheduler
@@ -14,7 +18,7 @@
 | --- | --- | --- | --- | --- |
 | deleteCronJob | <a href="#DeleteCronJobRequest">DeleteCronJobRequest</a> | <a href='#void'>void</a> | - |  |
 | setCallbackOperation | <a href="#SetCallBackOperationRequest">SetCallBackOperationRequest</a> | - | - |  Set the callback operation name |
-| setCronJob | <a href="#SetCronJobRequest">SetCronJobRequest</a> | <a href='#void'>void</a> | <details><summary>JobAlreadyExists</summary>void)</details> |  Set a new cron job |
+| setCronJob | <a href="#SetCronJobRequest">SetCronJobRequest</a> | <a href='#void'>void</a> | <details><summary>JobAlreadyExists</summary>void</details> |  Set a new cron job |
 
 
 ### Types

@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service JsonUtils
 
 > from json-utils import JsonUtils
@@ -12,8 +16,8 @@
 
 | Operation Name | Input Type | Output Type | Faults | Description |
 | --- | --- | --- | --- | --- |
-| getJsonString | <a href="#GetJsonStringRequest">GetJsonStringRequest</a> | <a href='#GetJsonStringResponse'>GetJsonStringResponse</a> | <details><summary>JSONCreationError</summary>undefined)</details> | <br>	  Returns the value converted into a JSON string<br>	 <br>	  Each child value corresponds to an attribute, the base values are saved as the default values (attribute "$" or singular value), the "_" helper childs disappear (e.g. a._[i]._[j] -> a[i][j]), the rest gets converted recursively<br>	  |
-| getJsonValue | <a href="#GetJsonValueRequest">GetJsonValueRequest</a> | <a href='#GetJsonValueResponse'>GetJsonValueResponse</a> | <details><summary>JSONCreationError</summary>undefined)</details> | <br>	  Returns the JSON string converted into a value<br>	 <br>	  Each attribute corresponds to a child value, the default values (attribute "$" or singular value) are saved as the base values, nested arrays get mapped with the "_" helper childs (e.g. a[i][j] -> a._[i]._[j]), the rest gets converted recursively<br>	  |
+| getJsonString | <a href="#GetJsonStringRequest">GetJsonStringRequest</a> | <a href='#GetJsonStringResponse'>GetJsonStringResponse</a> | <details><summary>JSONCreationError</summary>undefined</details> | <br>	  Returns the value converted into a JSON string<br>	 <br>	  Each child value corresponds to an attribute, the base values are saved as the default values (attribute "$" or singular value), the "_" helper childs disappear (e.g. a._[i]._[j] -> a[i][j]), the rest gets converted recursively<br>	  |
+| getJsonValue | <a href="#GetJsonValueRequest">GetJsonValueRequest</a> | <a href='#GetJsonValueResponse'>GetJsonValueResponse</a> | <details><summary>JSONCreationError</summary>undefined</details> | <br>	  Returns the JSON string converted into a value<br>	 <br>	  Each attribute corresponds to a child value, the default values (attribute "$" or singular value) are saved as the base values, nested arrays get mapped with the "_" helper childs (e.g. a[i][j] -> a._[i]._[j]), the rest gets converted recursively<br>	  |
 
 
 ### Types

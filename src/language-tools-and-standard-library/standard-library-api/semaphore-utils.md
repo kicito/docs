@@ -1,3 +1,7 @@
+<!-- markdownlint-disable -->
+<!-- editorconfig-checker-disable -->
+<!-- cSpell:disable -->
+
 # Service SemaphoreUtils
 
 > from semaphore-utils import SemaphoreUtils
